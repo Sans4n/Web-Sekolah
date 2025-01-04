@@ -3,7 +3,7 @@
         <h1 class="text-center mb-4">Visi dan Misi</h1>
 
         <div class="row justify-content-center">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4 pt-3">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title text-center">Visi</h5>
@@ -14,7 +14,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-5 pt-3">
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h5 class="card-title text-center">Misi</h5>

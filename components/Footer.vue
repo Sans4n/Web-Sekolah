@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-success text-white py-4">
+  <footer class="bg-primary text-white py-4">
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-3">

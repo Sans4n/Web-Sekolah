@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row p-3 bg-success text-white align-items-center">
+    <div class="row p-3 text-bg-light align-items-center">
       <div class="col-4 col-lg-1 text-center">
         <img src="../assets/img/Logo-SMK.png" alt="Logo SMKN 4 Tasikmalaya" class="img-fluid rounded">
       </div>
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="row p-1 bg-success text-white bg-opacity-75">
+    <div class="row p-1 text-bg-primary bg-opacity-75">
       <div class="col-12">
         <ul class="d-flex list-unstyled mb-0 menu justify-content-center">
           <li class="me-3">
@@ -43,6 +43,9 @@
           </li>
           <li class="me-3">
             <NuxtLink to="/fasilitas" class="nav-link text-white">Fasilitas</NuxtLink>
+          </li>
+          <li class="me-3">
+            <NuxtLink to="/identitas" class="nav-link text-white">Identitas</NuxtLink>
           </li>
         </ul>
       </div>
@@ -77,18 +80,18 @@ img {
 }
 
 .nav-link:hover {
-  background-color: rgb(0, 138, 94);
+  background-color: #007bff;
   color: white;
   border-radius: 5px;
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: rgb(0, 138, 94);
+  background-color: #007bff;
   color: white;
 }
 
 .dropdown-toggle:hover {
-  background-color: rgb(0, 138, 94);
+  background-color: #007bff;
   color: white;
 }
 

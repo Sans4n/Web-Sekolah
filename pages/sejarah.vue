@@ -6,7 +6,7 @@
     <!-- Bagian Deskripsi dan Gambar -->
     <div class="row">
       <div class="col-md-3 text-center">
-        <img src="~/assets/img/logo-SMK.png" alt="Kepala Sekolah" class="img-fluid mb-3">
+        <img src="@/assets/img/Logo-SMK.png" alt="Kepala Sekolah" class="img-fluid mb-3">
       </div>
       <div class="col-md-9">
         <p>

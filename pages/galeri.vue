@@ -15,12 +15,12 @@
 </template>
 
 <script setup>
-import foto1 from "@/assets/img/foto1.png"
-import foto2 from "@/assets/img/foto2.png"
-import foto3 from "@/assets/img/foto3.png"
-import foto4 from "@/assets/img/foto4.png"
-import foto5 from "@/assets/img/foto5.png"
-import foto6 from "@/assets/img/foto6.png"
+import foto1 from "@/assets/img/foto1.jpg"
+import foto2 from "@/assets/img/foto2.jpg"
+import foto3 from "@/assets/img/foto3.jpg"
+import foto4 from "@/assets/img/foto4.jpg"
+import foto5 from "@/assets/img/foto5.jpg"
+import foto6 from "@/assets/img/foto6.jpg"
 
 const images = ref([
   { src: foto1, title: "Upacara 17 Agustus" },

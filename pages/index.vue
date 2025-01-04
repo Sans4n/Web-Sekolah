@@ -1,23 +1,23 @@
 <template>
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="@/assets/img/smk4.png" class="d-block w-100 img-overlay" alt="Slide 1" />
-        <div class="carousel-caption">
+        <div class="carousel-caption mb-5">
           <h3>Selamat Datang di SMKN 4 Tasikmalaya</h3>
           <p>Generasi unggul dan berprestasi</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="@/assets/img/foto4.png" class="d-block w-100 img-overlay" alt="Slide 2" />
-        <div class="carousel-caption">
+        <img src="@/assets/img/foto4.jpg" class="d-block w-100 img-overlay" alt="Slide 2" />
+        <div class="carousel-caption mb-5">
           <h3>Fasilitas Modern</h3>
           <p>Kenyamanan belajar dengan fasilitas lengkap</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="@/assets/img/foto3.png" class="d-block w-100 img-overlay" alt="Slide 3" />
-        <div class="carousel-caption">
+        <img src="@/assets/img/foto3.jpg" class="d-block w-100 img-overlay" alt="Slide 3" />
+        <div class="carousel-caption mb-5">
           <h3>Kompetensi Terbaik</h3>
           <p>Mempersiapkan siswa untuk masa depan</p>
         </div>
@@ -118,7 +118,7 @@
     </div>
   </section>
 
-  <div class="container-fluid bg-success text-white bg-opacity-75 py-5">
+  <div class="container-fluid text-bg-primary bg-opacity-75 py-5">
     <h1 class="text-center mb-4 pb-4">Galeri</h1>
     <div class="row g-4">
       <div class="col-md-4" v-for="(image, index) in images" :key="index">
@@ -135,12 +135,12 @@
 
 
 <script setup>
-import foto1 from "@/assets/img/foto1.png"
-import foto2 from "@/assets/img/foto2.png"
-import foto3 from "@/assets/img/foto3.png"
-import foto4 from "@/assets/img/foto4.png"
-import foto5 from "@/assets/img/foto5.png"
-import foto6 from "@/assets/img/foto6.png"
+import foto1 from "@/assets/img/foto1.jpg"
+import foto2 from "@/assets/img/foto2.jpg"
+import foto3 from "@/assets/img/foto3.jpg"
+import foto4 from "@/assets/img/foto4.jpg"
+import foto5 from "@/assets/img/foto5.jpg"
+import foto6 from "@/assets/img/foto6.jpg"
 
 const images = ref([
   { src: foto1, title: "Upacara 17 Agustus" },
@@ -201,7 +201,7 @@ const images = ref([
 }
 
 .info-section {
-  background-color: rgb(0, 138, 94);
+  background-color: #007bff;
   /* Warna latar belakang gelap */
   color: white;
   /* Teks warna putih */
@@ -209,7 +209,7 @@ const images = ref([
 }
 
 .info-box {
-  background-color: #50a782;
+  background-color: #4096f9;
   /* Warna kotak */
   padding: 20px;
   border-radius: 8px;
