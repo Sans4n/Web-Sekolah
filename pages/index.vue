@@ -2,7 +2,7 @@
   <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/img/smk4.png" class="d-block w-100 img-overlay" alt="Slide 1" />
+        <img src="@/assets/img/foto1.jpg" class="d-block w-100 img-overlay" alt="Slide 1" />
         <div class="carousel-caption mb-5">
           <h3>Selamat Datang di SMKN 4 Tasikmalaya</h3>
           <p>Generasi unggul dan berprestasi</p>
@@ -169,7 +169,7 @@ const images = ref([
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 15px 20px;
   border-radius: 10px;

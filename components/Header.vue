@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="row p-1 text-bg-primary bg-opacity-75">
+    <div class="row p-1 text-bg-primary">
       <div class="col-12">
         <ul class="d-flex list-unstyled mb-0 menu justify-content-center">
           <li class="me-3">
@@ -44,9 +44,9 @@
           <li class="me-3">
             <NuxtLink to="/fasilitas" class="nav-link text-white">Fasilitas</NuxtLink>
           </li>
-          <li class="me-3">
+          <!-- <li class="me-3">
             <NuxtLink to="/identitas" class="nav-link text-white">Identitas</NuxtLink>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -80,18 +80,18 @@ img {
 }
 
 .nav-link:hover {
-  background-color: #007bff;
+  background-color: #4096f9;
   color: white;
   border-radius: 5px;
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #007bff;
+  background-color: #4096f9;
   color: white;
 }
 
 .dropdown-toggle:hover {
-  background-color: #007bff;
+  background-color: #4096f9;
   color: white;
 }
 
